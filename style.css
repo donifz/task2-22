@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: inherit;
+}
+
+
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  min-width: 100%;
+}
+
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 53px;
+  color: #323232;
+}
+
+.btn {
+  background: #4985FF;
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  padding: 15px 36px;
+  color: #ffffff
+}
+
+
+.header {
+  margin: 0 auto;
+  max-width: 1920px;
+  min-height: 900px;
+  background: url("img/back.png")no-repeat 50% 50%;
+  background-size: cover;
+
+}
+
+.header__container {
+  max-width: 100%;
+  min-height: 100%;
+}
+
+.header__top {
+  max-width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 1px solid #A1A1A1;
+
+}
+
+.header__menu {
+  width: 50%;
+
+
+}
+
+.menu__list {
+  display: flex;
+}
+
+.menu__list a {
+  display: inline-block;
+  color: #ffffff;
+  padding: 0 20px 0 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+
+  color: #FFFFFF;
+}
+
+.header__bottom {
+  color: #ffffff;
+  max-width: 100%;
+  min-height: 800px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.before__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.header__bottom-title {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+
+  color: #FFFFFF;
+
+}
+
+.btn {}
+
+.header__bottom-btn {}
+
+.main {}
+
+.about {}
+
+.about__text {}
+
+.about__text-title {}
+
+.title {}
+
+.about__text-paragh {}
+
+.about__columns {}
+
+.columns__item {}
+
+.columns__img {}
+
+.columns__title {}
+
+.columns__paragh {}
+
+.about__btn {}
+
+.standards {}
+
+.standards__container {}
+
+.standards__text {}
+
+.standards__text-title {}
+
+.standards__text-paragh {}
+
+.standards__text-readmore {}
+
+.standards__img {}
+
+.standard__project {}
+
+.project__item {}
+
+.project-number {}
+
+.project-ours {}
